@@ -34,7 +34,7 @@ async def send_daily_message():
 def schedule_task():
     asyncio.run(send_daily_message())
 
-schedule.every().day.at("11:30").do(schedule_task)
+schedule.every().day.at("11:40").do(schedule_task)
 
 # اجرای برنامه
 if __name__ == "__main__":
